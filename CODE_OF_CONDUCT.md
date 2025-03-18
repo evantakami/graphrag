@@ -71,24 +71,4 @@ Add sections and commentary to the response as appropriate for the length and fo
 
 {query}
 
----Output Format---
-Please output your final answer in plain text following the structure below. All output must be in Japanese.
-
-最終回答:
-[ここに最終回答（markdown形式）を記載します。]
-
-得点: [0〜100の整数で、回答がクエリにどれだけ適合しているかを示す]
-
-追加入力例:
-- [追加入力例1]
-- [追加入力例2]
-- [追加入力例3]
-
-修正提案:
-【修正セクション名】: [章タイトル（例: "# 章タイトル"）]
-【修正箇所】: [箇条書きのタイトル または 修正が必要な文]
-【修正理由】: [修正が必要な理由の説明]
-【重要度】: [1〜10の整数]
-
-Ensure that you follow this output structure exactly and do not output in JSON format.
 """
